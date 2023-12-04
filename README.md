@@ -2,8 +2,10 @@
 
 
 ## Description
-I cloned the github repository of given swipe invoices app. I used react js for user interface, react-bootstrap package for styling and redux for store managment as all predefined initially in it utilizing the existing redux reducers like updateInvoice and getOneInvoice from custom hook.
+I cloned the github repository of given swipe invoices app. I used react js for user interface, react-bootstrap package for styling and redux for store managment as all predefined initially in it. Utilizing the existing redux reducers like updateInvoice and getOneInvoice from custom hook.
+
 One notable addition I made was the implementation of a feature allowing users to individually select or deselect invoices and send them to /bulkedit page to makeup for multiinvoices editing at once i.e bulk editing.
+
 By leveraging the 'bulk edit' button, users can modify existing data collectively, while the 'go back' option permits them to retain the original data if desired.
 
 
