@@ -179,8 +179,8 @@ const InvoiceRow = ({ invoice, navigate ,selectedEditInvoices,setSelectedEditInv
           </div>
         </Button>
       </td>
-      <td >
-        <input type="checkbox" class="form-check-input border-1 my-2 border-primary p-2" onChange={(event) => {
+      <td > 
+        <input type="checkbox" class="form-check-input border-1 my-2 border-primary p-2" onChange={(event) => { //created
         selectEditInvoices(invoice.id,event.target.checked)
       }} />
       </td>
