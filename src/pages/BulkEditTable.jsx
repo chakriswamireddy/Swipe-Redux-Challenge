@@ -17,7 +17,6 @@ function BulkEditTable() {
 
   const [listofInvoices, setListofInvoices] = useState([])
 
-  // const [singleInvoice,setSingleInvoice] = useState([])
 
   const editField = (name, value, invoiceId) => {
     const updatedList = listofInvoices.map((invoice) => {
