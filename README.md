@@ -10,7 +10,7 @@ Upon clicking the 'bulk edit' button without selecting at least one invoice, the
 
 By leveraging the 'bulk edit' button, users can modify existing data collectively, while the 'go back' option permits them to retain the original data if desired.
 
-Note: I updated the existed packages by `ncu -u` command in project directory to latest because older versions  are incompatible in current environment.
+Note: I updated the existed npm packages like react-redux react dom,react-bootstrap packages by `ncu -u` command in project directory to latest because older versions  are incompatible in current environment.
 
 
 
